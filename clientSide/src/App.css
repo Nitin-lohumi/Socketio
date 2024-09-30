@@ -1,0 +1,24 @@
+
+.textmessages{
+  width: 90%;
+  padding:0;
+  margin: 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+}
+.button{
+  font-size: 1rem;
+  padding: 0;
+}
+.messageBox{
+  width: 97%;
+  margin: auto;
+  background: #e9e5e5;
+  height:25rem;
+}
+.message{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
