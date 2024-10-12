@@ -8,15 +8,14 @@ function App() {
   const [text,setText] = useState("");
   const socket = io();
   const sendMessage =(e)=>{
-    alert("sending message ")
+   alert("sending message ")
    e.preventDefault();
    console.log(text)
   }
 
   return (
     <>
-     <div className="messageBox">
-       
+     <div className="messageBox">   
       </div>    
       <form className="message" onSubmit={sendMessage}>
         <TextField

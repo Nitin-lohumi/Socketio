@@ -6,10 +6,10 @@ const {Server} = require("socket.io");
 const io = new Server();
 app.use(cors());
 io.on("connection",(socket)=>{
-    console.log("event emited");
+    console.log("event emited" ,socket.connected());
 })
 app.get('/',(req,res)=>{
-    res.send("hello this is nitin lohumi");
+    
 })
 server.listen(3000,()=>{
     console.log("the app is listening in port number 3000");
