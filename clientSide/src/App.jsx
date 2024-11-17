@@ -2,11 +2,11 @@ import {useEffect, useState } from "react";
 import "./App.css";
 import {io} from "socket.io-client";
 // import Button from '@mui/material/Button';
-import { TextField, Button } from "@mui/material";
+import { TextField, Button } from "@mui/material"
 function App() {
 
-  const [text,setText] = useState("");
-  const socket = io();
+  const [text,setText] = useState("")
+  const socket = io()
   const sendMessage =(e)=>{
    alert("sending message ")
    e.preventDefault();
